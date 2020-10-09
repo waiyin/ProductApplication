@@ -13,13 +13,16 @@ export class EditComponent {
   }
 
   ngOnInit(){
-    console.log(this.route.params);
     let productId = this.route.snapshot.paramMap.get('id');
     if(productId){
       this.api.getProductById(productId).subscribe(res => this.product = res);
     }
     this.api.selectedProduct.subscribe( product => {this.product = product});
   }
+  ngOnChanges(){
+    this.api.getProducts().subscribe( res => this.product = res);
+  }
+
   addNewProduct(product) {
     this.api.postProduct(product);
   }
