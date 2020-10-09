@@ -3,7 +3,8 @@
 Can be improved:
 - validation
 - configuration setting
-- authentication
+- add authentication with user login
 - ui display
 - API design pattern 
+- API add key for authorisation
 
