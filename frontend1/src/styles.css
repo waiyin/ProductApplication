@@ -32,3 +32,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   width: 100%;
   text-align: right;
 }
+
+.cursor{
+  cursor: pointer;
+}
+
+.menu{
+  padding-left: 0!important;
+  margin-top: 0!important;
+}
+.align-right{
+  float: right;
+}

@@ -7,6 +7,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
+import {MatTooltipModule} from "@angular/material/tooltip";
 
 import {FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
@@ -16,25 +17,28 @@ import { AppComponent } from './app.component';
 import { ProductComponent } from './product.component';
 import { ProductListComponent } from './productList.component';
 import { HomeComponent } from "./home.component";
-import { NavComponent } from './nav.component'
+import { DetailComponent } from './detail.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ApiService} from './api.service';
 import {HttpClientModule} from '@angular/common/http';
+import {EditComponent} from "./edit.component";
 
 const routes = [
   { path:'', component: HomeComponent },
   { path:'products', component: ProductListComponent },
-  { path:'product', component: ProductComponent },
-  { path:'product/:id', component: ProductComponent },
+  { path:'product', component: EditComponent },
+  { path:'product/:id', component: DetailComponent },
+  { path:'product/edit/:id', component: EditComponent },
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
+    EditComponent,
     ProductListComponent,
     HomeComponent,
-    NavComponent
+    DetailComponent
   ],
   imports: [
     BrowserModule,
@@ -47,6 +51,7 @@ const routes = [
     MatButtonModule,
     MatListModule,
     MatIconModule,
+    MatTooltipModule,
     FormsModule,
     MatToolbarModule,
     BrowserAnimationsModule

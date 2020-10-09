@@ -3,11 +3,11 @@ import {ApiService} from './api.service';
 import {ActivatedRoute} from "@angular/router";
 
 @Component({
-  selector: 'product',
-  templateUrl: './product.component.html'
+  selector: 'detail',
+  templateUrl: './detail.component.html'
 })
 
-export class ProductComponent {
+export class DetailComponent {
   product: any = {};
   constructor(private api: ApiService, private  route: ActivatedRoute){
   }

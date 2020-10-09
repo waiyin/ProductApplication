@@ -1,0 +1,15 @@
+<mat-toolbar *ngIf="product.id">
+  <span>Detail Page</span>
+  <div class="fullWidth button-design">
+    <button mat-button class="align-right" routerLink="/">BACK TO HOME</button>
+  </div>
+</mat-toolbar>
+<mat-card class="example-card">
+   <product></product>
+    <mat-card-actions class="align-right">
+      <div class="button-container">
+        <button mat-button [routerLink]="['/product/edit',product.id]"  class="button-design" mat-raised-button>EDIT</button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+
