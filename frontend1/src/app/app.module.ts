@@ -11,7 +11,6 @@ import {MatTooltipModule} from "@angular/material/tooltip";
 
 import {FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
-import { RouterModule} from "@angular/router";
 
 import { AppComponent } from './app.component';
 import { ProductComponent } from './product.component';
@@ -22,14 +21,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ApiService} from './api.service';
 import {HttpClientModule} from '@angular/common/http';
 import {EditComponent} from "./edit.component";
-
-const routes = [
-  { path:'', component: HomeComponent },
-  { path:'products', component: ProductListComponent },
-  { path:'product', component: EditComponent },
-  { path:'product/:id', component: DetailComponent },
-  { path:'product/edit/:id', component: EditComponent },
-]
 
 @NgModule({
   declarations: [
@@ -44,7 +35,6 @@ const routes = [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes),
     MatCardModule,
     MatTabsModule,
     MatInputModule,
