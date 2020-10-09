@@ -1,4 +1,9 @@
  <mat-card class="example-card cursor" [routerLink]="['/product',product.id]" *ngFor="let product of productList">
    <product></product>
+   <mat-card-actions *ngIf="editMode" class="align-right">
+     <div class="button-container">
+       <button mat-button [routerLink]="['/product/edit',product.id]"  class="button-design" mat-raised-button>EDIT</button>
+     </div>
+   </mat-card-actions>
   </mat-card>
 

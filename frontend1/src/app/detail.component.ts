@@ -9,6 +9,7 @@ import {ActivatedRoute} from "@angular/router";
 
 export class DetailComponent {
   product: any = {};
+  editMode: boolean = false;
   constructor(private api: ApiService, private  route: ActivatedRoute){
   }
 

@@ -1,4 +1,7 @@
 <mat-tab-group>
   <mat-tab label="HOME"> <productList></productList> </mat-tab>
-  <mat-tab label="MANAGE PRODUCT"><edit></edit></mat-tab>
+  <mat-tab label="MANAGE PRODUCT">
+    <edit></edit>
+    <productList [editMode]="true"></productList>
+  </mat-tab>
 </mat-tab-group>

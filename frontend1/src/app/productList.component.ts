@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {ApiService} from './api.service';
 
 @Component({
@@ -8,6 +8,7 @@ import {ApiService} from './api.service';
 
 export class ProductListComponent {
   productList: any = {};
+  @Input() editMode: boolean;
   constructor(private api: ApiService){}
 
   ngOnInit() {

@@ -6,7 +6,7 @@
 </mat-toolbar>
 <mat-card class="example-card">
    <product></product>
-    <mat-card-actions class="align-right">
+    <mat-card-actions *ngIf="editMode" class="align-right">
       <div class="button-container">
         <button mat-button [routerLink]="['/product/edit',product.id]"  class="button-design" mat-raised-button>EDIT</button>
       </div>
