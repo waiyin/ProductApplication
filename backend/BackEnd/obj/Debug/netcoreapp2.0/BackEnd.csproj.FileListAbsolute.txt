@@ -1,0 +1,10 @@
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\bin\Debug\netcoreapp2.0\BackEnd.deps.json
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\bin\Debug\netcoreapp2.0\BackEnd.runtimeconfig.json
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\bin\Debug\netcoreapp2.0\BackEnd.runtimeconfig.dev.json
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\bin\Debug\netcoreapp2.0\BackEnd.dll
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\bin\Debug\netcoreapp2.0\BackEnd.pdb
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\obj\Debug\netcoreapp2.0\BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\obj\Debug\netcoreapp2.0\BackEnd.AssemblyInfoInputs.cache
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\obj\Debug\netcoreapp2.0\BackEnd.AssemblyInfo.cs
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\obj\Debug\netcoreapp2.0\BackEnd.dll
+C:\Users\lie004\Documents\work\_angular\BackEnd\BackEnd\obj\Debug\netcoreapp2.0\BackEnd.pdb

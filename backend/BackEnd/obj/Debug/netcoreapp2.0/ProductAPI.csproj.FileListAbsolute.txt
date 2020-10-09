@@ -1,0 +1,11 @@
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\bin\Debug\netcoreapp2.0\ProductAPI.deps.json
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\bin\Debug\netcoreapp2.0\ProductAPI.runtimeconfig.json
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\bin\Debug\netcoreapp2.0\ProductAPI.runtimeconfig.dev.json
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\bin\Debug\netcoreapp2.0\ProductAPI.dll
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\bin\Debug\netcoreapp2.0\ProductAPI.pdb
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\obj\Debug\netcoreapp2.0\ProductAPI.csprojResolveAssemblyReference.cache
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\obj\Debug\netcoreapp2.0\ProductAPI.csproj.CoreCompileInputs.cache
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\obj\Debug\netcoreapp2.0\ProductAPI.AssemblyInfoInputs.cache
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\obj\Debug\netcoreapp2.0\ProductAPI.AssemblyInfo.cs
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\obj\Debug\netcoreapp2.0\ProductAPI.dll
+C:\Users\lie004\Documents\work\_angular\backend\BackEnd\obj\Debug\netcoreapp2.0\ProductAPI.pdb
